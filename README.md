@@ -4,7 +4,7 @@
 This Project was created following the training course on [Manual do Dev](https://youtube.com/playlist?list=PLdtmpu_1ITQJ1Y2-ZBbE7ROP6u1kU0J5l) 
 
 <br>
- <img align="center" src="backend/src/assets/img/1.jpeg" />
+ <img align="center" src="backend/src/assets/img/model.jpeg" />
 
 <br>
 <br>
