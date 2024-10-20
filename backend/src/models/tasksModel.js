@@ -19,8 +19,16 @@ const deleteTask = async (id) => {
     return removedTask
 }
 
+const updateTask = async (id, task) => {
+    const { title, status} = task
+    const query = 'UPDATE tasks SET title =?, status = ? WhERE id = ?'    
+    const [updatedTask] = await connection.execute(query, [title, status, id])
+    return updatedTask
+}
+
 module.exports = {
     getAll,
     createTask,
-    deleteTask
+    deleteTask,
+    updateTask
 }
